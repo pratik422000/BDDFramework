@@ -1,10 +1,12 @@
 Writing manual test cases in BDD (Behavior-Driven Development) involves describing test scenarios in natural language, focusing on the behavior of the system from the user's perspective. BDD test cases typically follow the "Given, When, Then" format, which helps ensure clarity and understandability for non-technical stakeholders.
 Here’s how you can write manual test cases in BDD:
+
 Structure of a BDD Test Case
 A typical BDD test case consists of the following three parts:
 Given: The initial context or the state of the system.
 When: The action or event that triggers the behavior.
 Then: The expected outcome or result after the action is performed.
+
 Example of Writing BDD Test Cases Manually
 Example 1: Testing a User Login
 Scenario: User logs in successfully with valid credentials.
@@ -13,6 +15,7 @@ And: The user has a registered account with a valid username and password.
 When: The user enters their username and password and clicks the "Login" button.
 Then: The user should be redirected to the dashboard page.
 And: The system should display a welcome message with the user's name.
+
 Example 2: Adding an Item to a Shopping Cart
 Scenario: User adds a product to the shopping cart.
 Given: The user is on the product details page.
@@ -20,6 +23,7 @@ When: The user clicks the "Add to Cart" button.
 Then: The product should be added to the shopping cart.
 And: The shopping cart icon should update to reflect the new item.
 And: The user should see a confirmation message, "Product added to cart."
+
 Example 3: Searching for a Product
 Scenario: User searches for a product by name.
 Given: The user is on the homepage of the e-commerce site.
